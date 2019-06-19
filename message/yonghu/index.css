@@ -1,0 +1,146 @@
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;   
+}
+.topbar{
+    background-color:rgba(0,0,0,0.5);
+    height: 40px;
+
+}
+.con{
+    
+    margin: 0 auto;
+    width: 100%;
+}
+.con::before,.con::after,
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.con::after,.clearfix::after{
+    clear: both;
+}
+.topbar a {
+    color:#b0b0b0;
+    font-size: 12px;
+}
+.topbar a:hover {
+    color: #fff;
+
+}
+.topbar-zuo span{
+font-size: 12px;
+color: #424242;
+font-family: sans-serif;
+margin: 0.5em;
+}
+.topbar-zuo{
+   text-align: center;
+    height:40px;
+    line-height: 40px;
+    font-size: 0;
+}
+.header{
+    height: 150px;
+    background-color: rgba(255,255,255,0.5);
+}
+.header-log{
+    float: left;
+    
+   
+    margin-top: 22px;
+    
+}
+.header-log {
+  
+    width:1000px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 48px;
+    font-weight:bold; 
+    line-height: 140px;
+}
+.header-log a{
+  
+    width:150px;
+    height: 55px;
+    color: aliceblue;
+    font-size: 40px;
+    line-height: 150px;
+}
+.header-log .lr{
+   
+    text-align: left;
+    padding-left: 30px;
+   
+}
+.header-nav{
+    float: right;
+    width:300px;
+    height: 150px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight:bold; 
+    line-height: 150px;
+  
+}
+.header-nav a{
+    color: black;
+}
+.title{
+    font-size:45px;
+    color: aliceblue;
+    font-style:italic; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:bold;
+    
+}
+.conlist{
+    
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    overflow-x:hidden;
+    overflow-y:auto;
+
+}
+.seckill{
+    
+    background-color:rgba(255,255,255,0.5);
+}
+.seckill-good li{
+
+    float: left;
+    width: 320px;
+    height: 190px;
+    padding:10px 15px;
+    background-color:rgba(238,238,224,0.6);
+   /* border: 1px solid black;*/
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-top: 13px;
+    border-radius: 40px;
+}
+.seckill-good li:hover{
+   
+    box-shadow:2px 2px 10px #909090;
+}
+.tag{
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height: 40px;
+   text-align: center;
+    font-size: 28px;
+}
+.tag a{
+    color: #fff;
+}
+.bottom{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+  
+}
